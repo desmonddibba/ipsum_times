@@ -5,29 +5,78 @@
 
 
  
-h1{
-    text-align: center;
-}
-
-
-
 
 
 body{
-    font: 'Raleway';
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
 }
 
+
+header{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+header>div{
+    display: flex;
+}
+
+#price{
+    margin-right: 1vh;
+    margin-left: 2vh;
+}
+
+#date{
+   text-align: right;
+}
+
+h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 250%;
+}
+
+h2{
+    margin-top: 0;
+    font-size: 150%;
+    font-weight: normal;
+}
+
+h3{
+    font-size: 120%;
+    font-weight: normal;
+}
 
 main{
     display: flex;
 }
 
+
 main>div{
-   border-right: 1px g black;
-   padding: 2vh;
-    
+    padding: 0vh 2vw;
+    border-right: 1px solid black;
 }
 
 main>div:last-child{
     border-right: none;
+}
+
+.author{
+    font-size: 120%;
+    font-style: italic;
+    text-align: right;
+}
+
+article{
+    border-bottom: 1px solid black;
+    margin-bottom: 2.5vh;
+}
+
+article:last-child{
+    border: none;
+}
+
+article>div>img{
+    width: 100%;
 }
