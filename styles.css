@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap');
+
+ 
+
+
+
+ 
+h1{
+    text-align: center;
+}
+
+
+
+
+
+body{
+    font: 'Raleway';
+}
+
+
+main{
+    display: flex;
+}
+
+main>div{
+   border-right: 1px g black;
+   padding: 2vh;
+    
+}
+
+main>div:last-child{
+    border-right: none;
+}
